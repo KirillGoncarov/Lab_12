@@ -123,7 +123,7 @@ void Place_for_Quin(int stolbec) {
 }
 
 bool Safe_Plase(int stroka, int stolbec) {
-    // Проверка строки (слева от текущей позиции)
+    // Проверка строки (слева от текущей позици)
     for (int j = 0; j < stolbec; j++) {
         if (board[stroka][j] == 1) return false;
     }
